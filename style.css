@@ -1,0 +1,46 @@
+/*BG Color*/
+body {
+    background-color: #030303;
+}
+
+/*Font*/
+@font-face {
+    font-family: Spooky;
+    src: url(Spookyman.otf);
+}
+
+/*Heading*/
+h1 {
+    font-family: Spooky;
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/*Second Font*/
+@font-face {
+    font-family: Spook;
+    src: url(SpookyBoo_Armaniarcher-Regular.ttf);
+}
+
+/*Caption*/
+.drag {
+    color: azure;
+    text-align: center;
+    font-family: Spook;
+    font-size: x-large;
+}
+
+/*Paragraph*/
+p{
+    font-family: Spooky;
+    color: aliceblue;
+}
+
+/*Paragraph to the side*/
+.important {
+    display: flex;
+    align-items: center;
+    display: flex-start;
+    font-size: xx-large;
+}
